@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta property="og:site_name" content="Make your app modular!"/>
+    <meta property="og:title" content="Make your app modular! | Slideshow"/>
+    <meta property="og:description" content="Slides for conference presentation"/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="fb:app_id" content=""/>
+    <meta property="og:locale" content="pl_PL"/>
+    <meta name="theme-color" content="#000000">
+
+    <link rel="stylesheet" href="css/reveal.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <link rel="apple-touch-icon" href="utils/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="utils/favicon.png"/>
+
+    <title>Modular Mobile Apps</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/halverinkgstid.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<!--<img src="logo_white.svg" id="logo" style="position: fixed; top:30px; left: 30px; width:160px; z-index: 999;">-->
+
+<!--<img src="footer.jpg" style="position: fixed; bottom:0; width: 100vw">-->
+
+<div class="reveal">
+    <div class="slides">
+
+        <!--INTRODUCTION-->
+
+        <section>
+            <h2>
+                //name
+            </h2>
+            <h3>
+                //team name
+            </h3>
+        </section>
+
+        <!--SMART CITY-->
+        <section>
+            <section>
+                <h2>Blokchain Platform</h2>
+                <h4>
+                    Location aware blockchain platform
+                </h4>
+            </section>
+
+
+            <section>
+                <h3>Key features</h3>
+                <ul>
+                    <li class="fragment">
+                        API for frontend clients
+                    </li>
+                    <li class="fragment">
+                        immutable dataset
+                    </li>
+                    <li class="fragment">
+                        ability to scale
+                    </li>
+                    <li class="fragment">
+                        containerized architecture
+                    </li>
+                    <li class="fragment">
+                        decentralizable
+                    </li>
+                    <li class="fragment">
+                        transaction and assets model
+                    </li>
+                </ul>
+            </section>
+        </section>
+
+
+        <section>
+            <h3>Client API - built with Flask</h3>
+
+            <section>
+                <pre>
+                    <code class="small_code">
+[
+  {
+    "data": {
+      "author": "Inspiring Chris Kravitz",
+      "created_at": "2018-03-11T03:53:06.789154",
+      "lat": 50.052998,
+      "lon": 19.943456,
+      "message": "TFW skasujesz kilka bryk...",
+      "type": "message"
+    },
+    "id": "6500507b8408265e36b7ca6ec0986f63bf2af61dbf861934c13ea8f879dc1ae7"
+  },
+  {
+    "data": {
+      "author": "Lotus Maximus",
+      "created_at": "2018-03-11T04:09:22.578766",
+      "lat": 50.053399,
+      "lon": 19.94876,
+      "message": "Ostatni ocalały z katastrofy tankowca. AMA.",
+      "type": "message"
+    },
+    "id": "8c234589998f12de436fcd527e7e0d730ffce3702e30c2c16680d9f529259fe2"
+  }
+]
+                    </code>
+                </pre>
+            </section>
+
+            <section>
+                    <pre>
+                    <code class="small_code">
+
+  {
+    "data": {
+      "author": "Walter Chain",
+      "created_at": "2018-03-11T03:53:06.789154",
+      "lat": 50.052998,
+      "lon": 19.943456,
+      "message": "I am the one who blocks",
+      "type": "message"
+    },
+    "id": "6500507b8408265e36b7ca6ec0986f63bf2af61dbf861934c13ea8f879dc1ae7"
+  }
+                    </code>
+                </pre>
+            </section>
+
+        </section>
+
+        <section>
+            <h3>selft-hosted BigchainDB instance</h3>
+            <h4>
+                open source blockchain database based on MongoDB
+            </h4>
+            //bigchaindb logo
+
+        </section>
+
+        <!--<section>-->
+                <!--<pre>-->
+                    <!--<code>-->
+<!--const BigchainDB = require('bigchaindb-driver')-->
+<!--const bip39 = require('bip39')-->
+
+<!--const API_PATH = 'https://test.bigchaindb.com/api/v1/'-->
+<!--const conn = new BigchainDB.Connection(API_PATH, {-->
+    <!--app_id: 'Get one from testnet.bigchaindb.com',-->
+    <!--app_key: 'Get one from testnet.bigchaindb.com'-->
+<!--})-->
+
+                    <!--</code>-->
+                <!--</pre>-->
+        <!--</section>-->
+
+        <section>
+            <h3>Android client</h3>
+            <h4>
+                built with Kotlin and GoogleServices API
+            </h4>
+        </section>
+
+        <section>
+            <h4 class="fragment">Sexy</h4>
+            <h3 class="fragment">Amazing</h3>
+            <h2 class="fragment">INNOVATIVE</h2>
+            <h1 class="fragment">B L O C K C H A I N</h1>
+        </section>
+
+        <section>
+            <h3>Our Platform proof of concept</h3>
+        </section>
+
+        <section>
+            <h3>Android app</h3>
+            <ul>
+                <li class="fragment">
+                    posting messages in place
+                </li>
+                <li class="fragment">
+                    discovering <b>graph.it</b>ies
+                </li>
+            </ul>
+        </section>
+
+
+        <section>
+            <h4>Post messages connected to location</h4>
+            <img src="https://github.com/Halveringstid/Presentation/raw/master/anonus_maximus_was_here.gif"/>
+        </section>
+
+        <section>
+            <h4>Discover messages nearby</h4>
+            <img src="https://github.com/Halveringstid/Presentation/raw/master/out_ouf_range.gif">
+        </section>
+
+        <section>
+            <h4>Discover</h4>
+            <img src="https://raw.githubusercontent.com/Halveringstid/Presentation/master/map_zoom_out.gif">
+        </section>
+
+        <section>
+            <h4>Access the public data across the World</h4>
+            <img src="https://github.com/Halveringstid/Presentation/raw/master/zooming_out_many.gif">
+        </section>
+
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        history: true,
+        backgroundTransition: 'zoom',
+
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            }
+        ]
+    });
+</script>
+</body>
+<link href="//fonts.googleapis.com/css?family=Montserrat:100,300,400,700,900&amp;subset=latin,latin-ext"
+      rel="stylesheet"
+      type="text/css">
+
+</html>

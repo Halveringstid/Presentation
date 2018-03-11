@@ -41,7 +41,6 @@
 <body>
 
 
-
 <div class="reveal">
     <b style="position: fixed; top:30px; left: 30px; bottom: 30px; right: 30px; font-size: 25px; color: #1a89a9">Halveringstid</b>
     <div class="slides">
@@ -57,10 +56,9 @@
             </h5>
         </section>
 
-        <!--SMART CITY-->
         <section>
             <section>
-                <h2>Blockchain Platform</h2>
+                <h2>Blockchain Data Platform</h2>
                 <h4>
                     Location aware blockchain platform
                 </h4>
@@ -149,35 +147,43 @@
         </section>
 
         <section>
-            <h3>selft-hosted BigchainDB instance</h3>
-            <h4>
-                open source blockchain database based on MongoDB
-            </h4>
-            <img src="https://avatars3.githubusercontent.com/u/17097586?s=200&v=4"/>
+            <section>
+                <h3>selft-hosted BigchainDB instance</h3>
+                <h4>
+                    open source blockchain database based on MongoDB
+                </h4>
+                <img src="https://avatars3.githubusercontent.com/u/17097586?s=200&v=4"/>
+            </section>
+            <section>
+                <h3>
+                    All services runs on Docker
+                </h3>
+                <img src="https://www.docker.com/sites/all/themes/docker/assets/images/brand-full.svg" height="500dp">
+            </section>
         </section>
 
         <!--<section>-->
-                <!--<pre>-->
-                    <!--<code>-->
-<!--const BigchainDB = require('bigchaindb-driver')-->
-<!--const bip39 = require('bip39')-->
+        <!--<pre>-->
+        <!--<code>-->
+        <!--const BigchainDB = require('bigchaindb-driver')-->
+        <!--const bip39 = require('bip39')-->
 
-<!--const API_PATH = 'https://test.bigchaindb.com/api/v1/'-->
-<!--const conn = new BigchainDB.Connection(API_PATH, {-->
-    <!--app_id: 'Get one from testnet.bigchaindb.com',-->
-    <!--app_key: 'Get one from testnet.bigchaindb.com'-->
-<!--})-->
+        <!--const API_PATH = 'https://test.bigchaindb.com/api/v1/'-->
+        <!--const conn = new BigchainDB.Connection(API_PATH, {-->
+        <!--app_id: 'Get one from testnet.bigchaindb.com',-->
+        <!--app_key: 'Get one from testnet.bigchaindb.com'-->
+        <!--})-->
 
-                    <!--</code>-->
-                <!--</pre>-->
+        <!--</code>-->
+        <!--</pre>-->
         <!--</section>-->
 
 
         <!--<section>-->
-            <!--<h4>Sexy</h4>-->
-            <!--<h3 class="fragment">Amazing</h3>-->
-            <!--<h2 class="fragment">INNOVATIVE</h2>-->
-            <!--<h1 class="fragment">B L O C K C H A I N</h1>-->
+        <!--<h4>Sexy</h4>-->
+        <!--<h3 class="fragment">Amazing</h3>-->
+        <!--<h2 class="fragment">INNOVATIVE</h2>-->
+        <!--<h1 class="fragment">B L O C K C H A I N</h1>-->
         <!--</section>-->
 
         <section>
@@ -189,7 +195,8 @@
             <h4>
                 built with Kotlin and GoogleServices API
             </h4>
-            <img src="http://youngstowngamedevelopers.com/wp-content/uploads/2017/11/kotlin-android-01.png" height="500px"/>
+            <img src="http://youngstowngamedevelopers.com/wp-content/uploads/2017/11/kotlin-android-01.png"
+                 height="500px"/>
         </section>
 
 
@@ -238,11 +245,6 @@
                     User discover messages in his neighborhood - gets rewarded.
                 </p>
             </section>
-            <section>
-                <h4>
-
-                </h4>
-            </section>
         </section>
 
         <section>
@@ -251,36 +253,54 @@
                 <li class="fragment">location microblogging platform (hackaton demo)</li>
                 <li class="fragment">gamificaiton app with coins as a reward</li>
                 <li class="fragment">use it as a microservice</li>
-                <li class="fragment">DWYW (do whatever you want) - build your app on platform - we provide PaaS BlockchainDB API wrapper and client SDK</li>
+                <li class="fragment">DWYW (do whatever you want) - build your app on platform - we provide PaaS
+                    BlockchainDB API wrapper and client SDK
+                </li>
             </ul>
         </section>
 
+        <section>
+            <h3>
+                <a href="https://github.com/Halveringstid"
+                   style="color: #1a89a9">github.com/Halveringstid</a>
+            </h3>
 
-</div>
+            <h4>Build something without us!</h4>
 
-<script src="lib/js/head.min.js"></script>
-<script src="js/reveal.js"></script>
 
-<script>
-    // More info about config & dependencies:
-    // - https://github.com/hakimel/reveal.js#configuration
-    // - https://github.com/hakimel/reveal.js#dependencies
-    Reveal.initialize({
-        history: true,
-        backgroundTransition: 'zoom',
+            <!--<img src="https://cdn0.iconfinder.com/data/icons/hippicons-technology/64/code-fork-128.png"/>-->
 
-        dependencies: [
-            {src: 'plugin/markdown/marked.js'},
-            {src: 'plugin/markdown/markdown.js'},
-            {src: 'plugin/notes/notes.js', async: true},
-            {
-                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
-                hljs.initHighlightingOnLoad();
-            }
-            }
-        ]
-    });
-</script>
+            <!--<h4>Build something innovative</h4>-->
+
+
+        </section>
+
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // More info about config & dependencies:
+        // - https://github.com/hakimel/reveal.js#configuration
+        // - https://github.com/hakimel/reveal.js#dependencies
+        Reveal.initialize({
+            history: true,
+            backgroundTransition: 'zoom',
+
+            dependencies: [
+                {src: 'plugin/markdown/marked.js'},
+                {src: 'plugin/markdown/markdown.js'},
+                {src: 'plugin/notes/notes.js', async: true},
+                {
+                    src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+                }
+            ]
+        });
+    </script>
 </body>
 <link href="//fonts.googleapis.com/css?family=Montserrat:100,300,400,700,900&amp;subset=latin,latin-ext"
       rel="stylesheet"
